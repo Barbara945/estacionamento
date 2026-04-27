@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabaseClient";
-import { COMPANY } from "@/config/company";
+import { supabase } from "../../lib/supabaseClient";
+import { COMPANY } from "/config/company";
 
 function NavLink({ href, children }) {
   const pathname = usePathname();

@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import RequireAuth from "@/components/RequireAuth";
-import { supabase } from "@/lib/supabaseClient";
-import Modal from "@/components/Modal";
+import RequireAuth from "/components/RequireAuth";
+import { supabase } from "/lib/supabaseClient";
+import Modal from "/components/Modal";
 
 function money(n) {
   const v = Number(n ?? 0);

@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabaseClient";
-import Nav from "@/components/Nav";
+import { supabase } from "../../lib/supabaseClient";
+import Nav from "/components/Nav";
 
 export default function RequireAuth({ children }) {
   const router = useRouter();

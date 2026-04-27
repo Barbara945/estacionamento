@@ -2,8 +2,8 @@
 
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabaseClient";
-import { COMPANY } from "@/config/company";
+import { supabase } from "/lib/supabaseClient";
+import { COMPANY } from "/config/company";
 
 export default function LoginPage() {
   const router = useRouter();

@@ -1,5 +1,5 @@
 import "./globals.css";
-import { COMPANY } from "@/config/company";
+import { COMPANY } from "/config/company";
 
 export const metadata = {
   title: `${COMPANY.shortName || COMPANY.businessName} (Caixa + Agenda)`,

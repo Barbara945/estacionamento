@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import RequireAuth from "/components/RequireAuth";
-import { supabase } from "/lib/supabaseClient";
+import RequireAuth from "../../components/RequireAuth";
+import { supabase } from "../../lib/supabaseClient";
 import Modal from "/components/Modal";
 
 function money(n) {

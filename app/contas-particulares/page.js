@@ -1,4 +1,4 @@
-import AccountsPayableScreen from "@/components/AccountsPayableScreen";
+import AccountsPayableScreen from "/components/AccountsPayableScreen";
 
 export default function Page() {
   return (

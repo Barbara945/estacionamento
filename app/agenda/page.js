@@ -1,11 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import RequireAuth from "/components/RequireAuth";
-import { supabase } from "/lib/supabaseClient";
-import Modal from "/components/Modal";
-import { addDays, format } from "date-fns";
-import { downloadOSPDF } from "/lib/pdf";
+import RequireAuth from "../../components/RequireAuth";
+import { supabase } from "../../lib/supabaseClient";
+import Modal from "../../components/Modal";
+// import { downloadOSPDF } from "../../lib/pdf";
 
 function money(n) {
   const v = Number(n ?? 0);

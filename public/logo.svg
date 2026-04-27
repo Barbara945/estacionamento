@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffd166" stop-opacity="1"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="204" height="204" rx="42" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <path d="M58 152V88c0-17 10-28 30-28h22c19 0 30 11 30 28v64c0 17-11 28-30 28H88c-20 0-30-11-30-28Zm30 10h22c8 0 12-4 12-12V90c0-8-4-12-12-12H88c-8 0-12 4-12 12v60c0 8 4 12 12 12Z" fill="url(#g)"/>
+  <path d="M152 180V60h24v52h3l40-52h28l-46 58 49 62h-29l-37-48h-8v48h-24Z" fill="rgba(243,246,255,0.92)"/>
+  <text x="120" y="218" text-anchor="middle" font-size="14" fill="rgba(243,246,255,0.65)" font-family="Arial, sans-serif">NC Estética</text>
+</svg>

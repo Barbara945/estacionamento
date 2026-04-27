@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import RequireAuth from "../../components/RequireAuth";
 import { supabase } from "../../lib/supabaseClient";
 import Modal from "../../components/Modal";
-// import RequireAuth from "../../components/RequireAuth";
 
 export default function ClientesPage() {
   const [customers, setCustomers] = useState([]);

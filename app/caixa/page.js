@@ -5,6 +5,7 @@ import RequireAuth from "../../components/RequireAuth";
 import Modal from "../../components/Modal";
 import { supabase } from "../../lib/supabaseClient";
 import { format } from "date-fns";
+// update deploy 2
 
 function money(n) {
   const v = Number(n ?? 0);

@@ -2,16 +2,15 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { supabase } from "../../lib/supabaseClient";
-import Nav from "/components/Nav";
+import { supabase } from "../lib/supabaseClient";
+import Nav from "../../components/Nav";
 
 export default function RequireAuth({ children }) {
   const router = useRouter();
   const [loading, setLoading] = useState(true);
   const [email, setEmail] = useState("");
 
-  useEffect(() => {
-    let mounted = true;
+  useEffect(() => {    let mounted = true;
 
     async function init() {
       const { data } = await supabase.auth.getSession();

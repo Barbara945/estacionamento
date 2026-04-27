@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import RequireAuth from "@/components/RequireAuth";
-import { supabase } from "@/lib/supabaseClient";
-import Modal from "@/components/Modal";
+import RequireAuth from "/components/RequireAuth";
+import { supabase } from "/lib/supabaseClient";
+import Modal from "/components/Modal";
 import { addDays, format } from "date-fns";
-import { downloadOSPDF } from "@/lib/pdf";
+import { downloadOSPDF } from "/lib/pdf";
 
 function money(n) {
   const v = Number(n ?? 0);
@@ -429,6 +429,7 @@ async function updateStatus(id, status) {
         <div className="card">
           <div className="h2">Agendamentos</div>
           <div style={{ fontSize: 26, fontWeight: 900 }}>{appointments.length}</div>
+
           <div className="small">Total do período</div>
         </div>
         <div className="card">
@@ -660,3 +661,4 @@ async function updateStatus(id, status) {
     </RequireAuth>
   );
 }
+// update

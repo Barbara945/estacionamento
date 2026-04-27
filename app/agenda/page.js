@@ -1,8 +1,8 @@
 "use client";
 
 import RequireAuth from "../../components/RequireAuth";
-import { supabase } from "../../lib/supabaseClient";
 import Modal from "../../components/Modal";
+import { supabase } from "../../lib/supabaseClient";
 // import { downloadOSPDF } from "../../lib/pdf";
 
 function money(n) {

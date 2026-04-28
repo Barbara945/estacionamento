@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import RequireAuth from "/components/RequireAuth";
-import Modal from "/components/Modal";
-import { supabase } from "/lib/supabaseClient";
+import RequireAuth from "../../components/RequireAuth";
+import Modal from "../../components/Modal";
+import { supabase } from "../lib/supabaseClient";
 import { addDays, addMonths, addWeeks, format } from "date-fns";
 
 function money(n) {

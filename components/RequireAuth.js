@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "../lib/supabaseClient";
 import Nav from "./Nav";
-// fix final 777
+// fix final 888
 
 export default function RequireAuth({ children }) {
   const router = useRouter();

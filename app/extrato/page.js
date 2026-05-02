@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import RequireAuth from "/components/RequireAuth";
-import { supabase } from "/lib/supabaseClient";
+import RequireAuth from "../../components/RequireAuth";
+import { supabase } from "../lib/supabaseClient";
 
 function money(n) {
   const v = Number(n ?? 0);

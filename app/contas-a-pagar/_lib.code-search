@@ -1,0 +1,47 @@
+# Query: /lib
+# Flags: RegExp
+
+15 results - 14 files
+
+app\page.js:
+  5: import { supabase } from "../../lib/supabaseClient";
+
+app\agenda\page.js:
+  5: import { supabase } from "../../lib/supabaseClient";
+  6: // import { downloadOSPDF } from "../../lib/pdf";
+
+app\bancos\page.js:
+  5: import { supabase } from "/lib/supabaseClient";
+
+app\caixa\page.js:
+  6: import { supabase } from "../../lib/supabaseClient";
+
+app\clientes\page.js:
+  5: import { supabase } from "/lib/supabaseClient";
+
+app\dashboard\page.js:
+  5: import { supabase } from "/lib/supabaseClient";
+
+app\extrato\page.js:
+  5: import { supabase } from "/lib/supabaseClient";
+
+app\login\page.js:
+  5: import { supabase } from "/lib/supabaseClient";
+
+app\pagamentos\page.js:
+  6: import { supabase } from "/lib/supabaseClient";
+
+app\relatorios\page.js:
+  5: import { supabase } from "/lib/supabaseClient";
+
+app\servicos\page.js:
+  5: import { supabase } from "/lib/supabaseClient";
+
+components\AccountsPayableScreen.js:
+  6: import { supabase } from "/lib/supabaseClient";
+
+components\Nav.js:
+  5: import { supabase } from "/lib/supabaseClient";
+
+components\RequireAuth.js:
+  5: import { supabase } from "/lib/supabaseClient";

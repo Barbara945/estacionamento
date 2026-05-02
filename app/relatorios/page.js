@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import RequireAuth from "../../components/RequireAuth";
-import { supabase } from "../../lib/supabaseClient";
+import { supabase } from "../lib/supabaseClient";
 import { format } from "date-fns";
 
 function money(n) {

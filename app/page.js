@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabaseClient";
+import { supabase } from "../lib/supabaseClient";
 
 export default function Home() {
   const router = useRouter();
@@ -12,14 +12,14 @@ export default function Home() {
       const { data } = await supabase.auth.getSession();
 
       if (data.session) {
-        router.push("/dashboard");
+        router.push("/estacionamento");
       } else {
         router.push("/login");
       }
     }
 
     check();
-  }, [router]);
+  }, []);
 
-  return <p>Redirecionando...</p>;
+  return <p>Carregando...</p>;
 }

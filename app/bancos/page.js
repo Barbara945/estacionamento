@@ -2,8 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import RequireAuth from "../../components/RequireAuth";
-import { supabase } from "../../lib/supabaseClient";
-import Modal from "/components/Modal";
+import { supabase } from "../lib/supabaseClient";
+import Modal from "../../components/Modal";
 
 function money(n) {
   const v = Number(n ?? 0);
